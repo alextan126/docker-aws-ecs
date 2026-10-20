@@ -8,7 +8,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: docker-aws-ecs
   ECS_CLUSTER: docker-cluster
-  ECS_SERVICE: docker-service
+  ECS_SERVICE: docker-task-service-s6fo7qvp
   TASK_FAMILY: docker-task
   CONTAINER_NAME: docker-aws-app
 
