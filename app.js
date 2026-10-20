@@ -5,7 +5,9 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hello from Docker on AWS!</h1>
+    <h1>Hello from Docker on AWS! 
+        Github Action used to update the web.
+    </h1>
     <p>APP_ENV: ${process.env.APP_ENV || 'not set'}</p>
     <p>Hostname: ${os.hostname()}</p>
     <p>APP_SECRET set: ${Boolean(process.env.APP_SECRET)}</p>
